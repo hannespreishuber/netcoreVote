@@ -1,0 +1,26 @@
+﻿{
+    "version": "1.0.0-*",
+    "description": "netcoreVote Console Application",
+    "authors": [ "pre" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "System.Net.Http": "4.0.1-beta-23409",
+        "System.Threading.Timer": "4.0.1-beta-23409"
+    },
+
+    "commands": {
+        "netcoreVote": "netcoreVote"
+    },
+
+    "frameworks": {
+        "dnxcore50": {
+            "dependencies": {
+                "System.Console": "4.0.0-beta-23019",
+                "Microsoft.CSharp": "4.0.0-beta-23019"
+            }
+        }
+    }
+}
